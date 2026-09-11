@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .pulse-cta {
+    animation: pulseCta 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+@keyframes pulseCta {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.35);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.55);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #D1E1FE;
+  font-family: 'Roboto', sans-serif;
+  color: #54595F;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}

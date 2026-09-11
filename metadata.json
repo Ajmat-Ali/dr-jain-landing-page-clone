@@ -1,0 +1,6 @@
+{
+  "name": "Ask Dr Jain - Sexual Health Consultation",
+  "description": "Consultation - Ask Dr Jain | Best sexologist in India. 80% men saw lasting results with personalized solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
