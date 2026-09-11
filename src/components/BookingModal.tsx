@@ -182,17 +182,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   CONFIRM CONSULTATION BOOKING
                 </button>
 
-                <div className="text-center">
-                  <a
-                    href={APPOINTMENT_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-[13px] text-[#1C5BD9] hover:underline font-semibold"
-                  >
-                    {/* <span>Or visit the live appointment page on askdrjain.in</span> */}
-                    <ArrowRight className="w-3.5 h-3.5 ml-1" />
-                  </a>
-                </div>
+                {/* <div className="text-center"></div> */}
               </div>
             </form>
           ) : (
