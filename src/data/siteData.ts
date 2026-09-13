@@ -1,4 +1,15 @@
 import { Review, BonusItem, DoctorCredential, VideoTestimonial, AccreditationLogo } from '../types';
+import confidentialTelehealthImg from '../assets/images/confidential_telehealth_1789304894266.jpg';
+import manConfidenceReliefImg from '../assets/images/man_confidence_relief_1789304913522.jpg';
+import privateClinicRoomImg from '../assets/images/private_clinic_room_1789304928310.jpg';
+import digitalBonusMockupImg from '../assets/images/digital_bonus_mockup_1789304954808.jpg';
+
+export const AI_IMAGES = {
+  confidentialTelehealth: confidentialTelehealthImg,
+  manConfidenceRelief: manConfidenceReliefImg,
+  privateClinicRoom: privateClinicRoomImg,
+  digitalBonusMockup: digitalBonusMockupImg,
+};
 
 export const APPOINTMENT_URL = "https://askdrjain.in/appointment/";
 
@@ -42,6 +53,29 @@ export const REVIEWS: Review[] = [
     rating: 5,
     title: "Happy Patient",
     text: "Dr. Sankalp Jain’s professionalism and expertise in sexual health matters are commendable. The 1-to-1 consultation exceeded my expectations. He not only addressed my concerns but also empowered me with knowledge and actionable steps. Choosing AskDrJain.com was a game-changer for me, and I highly recommend their services."
+  }
+];
+
+export const FAQS = [
+  {
+    question: "Will anyone find out about my consultation?",
+    answer: "Absolutely not. Your consultation is 100% private, discreet, and protected by strict doctor-patient medical confidentiality. Even your payment receipt or prescription carries no awkward or sensitive names."
+  },
+  {
+    question: "Can I consult online from my home?",
+    answer: "Yes! While Dr. Sankalp Jain operates two physical clinics in Lucknow (Hazratganj & Charbagh), more than 75% of patients consult through private, secure online video or voice consultations from the comfort of their home across India and globally."
+  },
+  {
+    question: "What is included in the ₹1,100 consultation?",
+    answer: "You receive a full 45-minute private one-to-one consultation directly with Dr. Sankalp Jain (no junior doctors), a root-cause scientific diagnosis, a personalized roadmap, and 3 free digital bonus blueprints worth ₹6,000."
+  },
+  {
+    question: "How does the Money-Back Guarantee work?",
+    answer: "If after the 45-minute session you feel you did not receive a clear, scientific action plan and compassionate guidance for your concern, you get 100% of your ₹1,100 consultation fee refunded—no questions asked."
+  },
+  {
+    question: "How soon can I get an appointment slot?",
+    answer: "Because Dr. Jain limits consultations to only 20 patients per day to ensure dedicated attention, slots are filled quickly. Typically, appointments are scheduled within 24 to 48 hours of booking."
   }
 ];
 

@@ -40,6 +40,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ onBook
                 <img
                   src={review.avatar}
                   alt={review.name}
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -74,6 +75,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ onBook
                 <img
                   src={review.avatar}
                   alt={review.name}
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
